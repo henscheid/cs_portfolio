@@ -1,0 +1,26 @@
+.profile-wrapper {
+  padding: 2rem 2rem;
+  width: 500px;
+  text-align: center;
+
+}
+
+.img {
+  width: 300px;
+}
+
+h1.profile {
+  font-size: 4em;
+}
+
+h2.profile {
+  font-size: 3em;
+  margin: 0;
+}
+
+h3.profile {
+  font-size: 2em;
+  margin: 0;
+
+}
+

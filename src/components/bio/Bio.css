@@ -1,0 +1,19 @@
+.bio-container {
+  width: 600px;
+  overflow: hidden;
+  margin-right: 40px;
+  min-width: 500px;
+  padding-right: 3em;
+}
+
+h1.bio {
+  font-size: 4em;
+  margin: 0;
+}
+
+p.bio {
+  font-size: 2em;
+  text-rendering: optimizeLegibility;
+  margin: 0;
+  line-height: 1.6;
+}

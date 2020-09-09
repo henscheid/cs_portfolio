@@ -1,0 +1,9 @@
+.about-container{
+  width: 100%;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  padding: 4em;
+  margin-bottom: 5em;
+  border-bottom: 3px solid;
+}
