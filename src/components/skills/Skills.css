@@ -1,0 +1,30 @@
+.skills-container {
+  
+  text-align: center;
+  width: 100%;
+}
+
+.skills-content {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  margin-bottom: 3em;
+  width: 100%;
+}
+
+.skills-skill {
+  display: flex;
+  justify-content: space-around;
+  
+  width: 100%;
+  
+}
+
+.individual-skill {
+  width: 20%;
+}
+
+p.skills {
+  text-align: center;
+  font-size: 2em;
+}

@@ -28,6 +28,7 @@ p {
   display: flex;
   flex-direction: column;
   overflow-y: scroll;
+  justify-content: center;
 }
 
 .justify-content-end {
