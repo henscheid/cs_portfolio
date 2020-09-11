@@ -6,13 +6,13 @@ class Skills extends Component {
   render(){
     return(
       <div className="skills-container">
-        <h1 className="bio">Skills</h1>
+        <h1>Skills</h1>
         <div className="skills-content">
           <div className="skills-skill">
             <div className="individual-skill">
               <img src={lang_graphic} alt="Language graphic" className="skill-graphic">
               </img> 
-              <h2 className="profile">
+              <h2>
                 Languages
               </h2>
               <p className="skills">
@@ -25,7 +25,7 @@ class Skills extends Component {
                 alt="Language graphic" 
                 className="skill-graphic">
               </img> 
-              <h2 className="profile">
+              <h2>
                 Frameworks
               </h2>
               <p className="skills">
@@ -38,7 +38,7 @@ class Skills extends Component {
                 alt="Language graphic" 
                 className="skill-graphic">
               </img> 
-              <h2 className="profile">
+              <h2>
                 Tools
               </h2>
               <p className="skills">
@@ -52,7 +52,7 @@ class Skills extends Component {
                 alt="Language graphic" 
                 className="skill-graphic">
               </img> 
-              <h2 className="profile">
+              <h2>
                 Soft Skills
               </h2>
               <p className="skills">
