@@ -1,5 +1,5 @@
 .profile-wrapper {
-  padding: 2rem 2rem;
+  padding: 0 2rem;
   width: 500px;
   text-align: center;
 
@@ -22,5 +22,12 @@ h3.profile {
   font-size: 2em;
   margin: 0;
 
+}
+
+.profile-icon {
+  width: 48px;
+  height: 48px;
+  fill: white;
+  padding: 1em 1em 0;
 }
 

@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './Skills.css';
+import lang_graphic from '../../assets/icons/language.svg';
 
 class Skills extends Component {
   render(){
@@ -9,6 +10,8 @@ class Skills extends Component {
         <div className="skills-content">
           <div className="skills-skill">
             <div className="individual-skill">
+              <img src={lang_graphic} alt="Language graphic" className="skill-graphic">
+              </img> 
               <h2 className="profile">
                 Languages
               </h2>
@@ -17,6 +20,11 @@ class Skills extends Component {
               </p>
             </div>
             <div className="individual-skill">
+              <img 
+                src={lang_graphic} 
+                alt="Language graphic" 
+                className="skill-graphic">
+              </img> 
               <h2 className="profile">
                 Frameworks
               </h2>
@@ -25,6 +33,11 @@ class Skills extends Component {
               </p>
             </div>
             <div className="individual-skill">
+              <img 
+                src={lang_graphic} 
+                alt="Language graphic" 
+                className="skill-graphic">
+              </img> 
               <h2 className="profile">
                 Tools
               </h2>
@@ -34,6 +47,11 @@ class Skills extends Component {
               </p>
             </div>
             <div className="individual-skill">
+              <img 
+                src={lang_graphic} 
+                alt="Language graphic" 
+                className="skill-graphic">
+              </img> 
               <h2 className="profile">
                 Soft Skills
               </h2>

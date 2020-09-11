@@ -8,10 +8,16 @@
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  margin-bottom: 3em;
+  margin: 3em 10em 0 0;
   width: 100%;
+  
+  border-bottom: 3px solid;
 }
 
+.skill-graphic {
+  width: 150px;
+  
+}
 .skills-skill {
   display: flex;
   justify-content: space-around;
