@@ -1,0 +1,10 @@
+.contact-container {
+  padding: 2em 0;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align:center;
+  width: 90%;
+  margin: auto;
+  border-bottom: 3px solid;
+}

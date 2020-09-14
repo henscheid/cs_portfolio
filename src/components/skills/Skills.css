@@ -1,28 +1,32 @@
 .skills-container {
   
   text-align: center;
-  width: 100%;
+  width: 90%;
+  margin: auto;
+  border-bottom: 3px solid;
 }
 
 .skills-content {
   display: flex;
   flex-flow: column nowrap;
   justify-content: space-around;
-  margin: 3em 10em 0 0;
+  margin: auto;
   width: 100%;
+  padding-top: 3em;
   
-  border-bottom: 3px solid;
+  
 }
 
 .skill-graphic {
-  width: 150px;
+  width: 140px;
+  fill: gray;
   
 }
 .skills-skill {
   display: flex;
   justify-content: space-around;
-  
-  width: 100%;
+  margin: auto;
+  width: 90%;
   
 }
 

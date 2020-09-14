@@ -4,6 +4,8 @@ import NavBar from '../nav/NavBar';
 import About from '../about/About';
 import Skills from '../skills/Skills';
 import Projects from '../projects/Projects';
+import Experience from '../experience/Experience';
+import Contact from '../contact/Contact';
 
 
 function App() {
@@ -14,6 +16,8 @@ function App() {
           <About/>
           <Skills/>
           <Projects/>
+          <Experience/>
+          <Contact/>
       </div>
     </body>
   );

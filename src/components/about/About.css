@@ -4,7 +4,7 @@
   flex-flow: row nowrap;
   justify-content: center;
   padding: 4em;
-  margin-bottom: 5em;
+  margin: 0 auto 5em;
   border-bottom: 3px solid;
   
 }

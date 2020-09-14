@@ -1,0 +1,19 @@
+.email-form-container {
+  margin: auto;
+  text-align: left;
+  width: 60%;
+}
+
+.email-form-text {
+  font-size: 2em;
+}
+
+.email-form-general {
+  
+}
+
+.form-field-container {
+  border: 1px solid white;
+  border-radius: .25em;
+  width: 100%;
+}

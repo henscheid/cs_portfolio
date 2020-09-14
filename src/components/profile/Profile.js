@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import '../profile/Profile.css';
 import avatar from '../../assets/images/avatar.png';
-import gitIcon from '../../assets/icons/github.svg';
+
 
 class Profile extends Component {
   render(){
