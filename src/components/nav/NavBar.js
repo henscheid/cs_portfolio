@@ -1,4 +1,5 @@
 import React, {Component} from 'react';
+import Resume from '../../assets/resume.pdf';
 import '../nav/NavBar.css';
 
 
@@ -26,7 +27,7 @@ class NavBar extends Component {
               Projects
             </li>
             <li className='nav-item'>
-              Resume
+              <a className='nav-item' href = {Resume} target = "_blank">Resume</a>
             </li>
             <li className='nav-item'>
               Contact
