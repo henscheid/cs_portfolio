@@ -27,11 +27,13 @@ p {
   text-align: justify;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
 .page-wrapper {
   background-color:#272935;
   width: 100%;
-  
-  
 }
 
 .all-content-container {

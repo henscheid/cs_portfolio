@@ -21,13 +21,16 @@ class NavBar extends Component {
               Bio
             </li>
             <li className='nav-item'>
-              Experience
+              Skills
             </li>
             <li className='nav-item'>
               Projects
             </li>
             <li className='nav-item'>
-              <a className='nav-item' href = {Resume} target = "_blank">Resume</a>
+              Experience
+            </li>
+            <li className='nav-item'>
+              <a className='nav-item' href = {Resume} target = "_blank" rel="noopener noreferrer">Resume</a>
             </li>
             <li className='nav-item'>
               Contact

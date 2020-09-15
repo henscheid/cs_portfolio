@@ -7,12 +7,9 @@ import './EmailForm.css';
 class EmailForm extends Component {
   render(){
     function sendEmail(e) {
-
-
-      
+    
       e.preventDefault();
       
-  
       emailjs.sendForm(
         'gmail', 
         'portfolio-email', 
@@ -29,11 +26,14 @@ class EmailForm extends Component {
     return (
       <div id="email-form" className="email-form-container email-form-text">
         <form onSubmit={sendEmail}>
-          <input className="input" type="text" id="name" name="name" placeholder="name"/><br/>
-          <input type="email" id="email" name="email" placeholder="email"/><br/>
-          <input type="text" id="message" name="message" placeholder="message"/>
+          <input className="contact" type="text" id="name" name="name" placeholder="Your name"/><br/>
+          <input className="contact" type="email" id="email" name="email" placeholder="Your email"/><br/>
+          <textarea className="contact" type="text" id="message" name="message" placeholder="Message"/>
           <br/><br/>
-          <input type="submit" value="Send Message"></input>
+          <div id="submit-button">
+            <input className="send-button" type="submit" value="Send Message"></input>
+          </div>
+          
           
         </form>
       </div>

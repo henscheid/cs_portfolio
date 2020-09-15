@@ -46,6 +46,7 @@
   display: flex;
   flex-flow: row nowrap;
   list-style: none;
+  
 
   
 }
@@ -53,6 +54,7 @@
 .navbar-item {
   display: block;
   margin: .5rem 1rem;
+  
 }
 
 .navbar-padding{

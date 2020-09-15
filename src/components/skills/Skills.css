@@ -12,13 +12,13 @@
   justify-content: space-around;
   margin: auto;
   width: 100%;
-  padding-top: 3em;
+  padding: 3em 0;
   
   
 }
 
 .skill-graphic {
-  width: 140px;
+  width: 100px;
   fill: gray;
   
 }
@@ -31,10 +31,12 @@
 }
 
 .individual-skill {
-  width: 20%;
+  box-sizing: border-box;
+  width: 200px;
+  height: 250px;
 }
 
 p.skills {
   text-align: center;
-  font-size: 2em;
+  font-size: 1.5em;
 }
