@@ -4,6 +4,7 @@ import './Skills.css';
 class Skills extends Component {
   render(){
     return(
+      <a class="anchor" id="skills_section">
       <div className="skills-container">
         <h1>Skills</h1>
         <div className="skills-content">
@@ -68,6 +69,7 @@ class Skills extends Component {
           </div>
         </div>
       </div>
+      </a>
     )
   }
 }

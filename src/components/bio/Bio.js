@@ -5,6 +5,7 @@ class Bio extends Component {
   render() {
     return (
       <div className="bio-container">
+        
         <h1>Biography</h1>
         <p className="bio" id ="bio-intro">
           I am eager college graduate looking to secure

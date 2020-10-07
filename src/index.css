@@ -1,6 +1,7 @@
 html {
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -46,4 +47,8 @@ a {
 
 .justify-content-end {
   justify-content:flex-end;
+}
+
+.anchor {
+  padding-top: 90px;
 }

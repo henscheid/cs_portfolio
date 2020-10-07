@@ -22,6 +22,7 @@ class EmailForm extends Component {
             console.log(error.text);
         });
         e.target.reset()
+        alert("Your message has been sent!");
     }
     return (
       <div id="email-form" className="email-form-container email-form-text">

@@ -17,24 +17,35 @@ class NavBar extends Component {
         </div> 
         <div className='navbar-content justify-content-end'>
           <ul className='navbar-nav'>
-            <li className='nav-item'>
-              Bio
-            </li>
-            <li className='nav-item'>
-              Skills
-            </li>
-            <li className='nav-item'>
-              Projects
-            </li>
-            <li className='nav-item'>
-              Experience
-            </li>
+            <a href="#bio_section">
+              <li className='nav-item'>
+                Bio
+              </li>
+            </a>
+            <a href="#skills_section">
+              <li className='nav-item'>
+                Skills
+              </li>
+            </a>
+            <a href="#projects_section">
+              <li className='nav-item'>
+                Projects
+              </li>
+            </a>
+            <a href="#experience_section">
+              <li className='nav-item'>
+                Experience
+              </li>
+            </a>
+            <a href="#contact_section">
+              <li className='nav-item'>
+                Contact
+              </li>
+            </a>
             <li className='nav-item'>
               <a className='nav-item' href = {Resume} target = "_blank" rel="noopener noreferrer">Resume</a>
             </li>
-            <li className='nav-item'>
-              Contact
-            </li>
+            
           </ul>
         </div>
       </div>

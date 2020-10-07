@@ -52,4 +52,14 @@ textarea.contact:focus {
   padding: 10px 20px;
   font-size: 1.2em;
   border-radius: 4px;
+  cursor: pointer;
 }
+
+.send-button:active {
+  background: rgb(42, 149, 192);
+  -webkit-box-shadow: inset 0px 0px 5px #c1c1c1;
+     -moz-box-shadow: inset 0px 0px 5px #c1c1c1;
+          box-shadow: inset 0px 0px 5px #c1c1c1;
+   outline: none;
+}
+
