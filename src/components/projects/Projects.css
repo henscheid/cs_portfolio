@@ -15,11 +15,22 @@
   width: 75%;
   justify-content: space-around;
   margin: auto;
+  background-color: var(--dark-icon-color);
+  border: 2px solid white;
+  border-radius: 5px;
+  padding: 0 2em;
   
 }
 
 .ind-project-container {
   text-align: left;
+  border-bottom: 2px solid white;
+  padding: 2em 0;
+}
+
+.project-logo {
+  max-width: 200px;
+  height: auto;
 }
 
 .list-temp {

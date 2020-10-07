@@ -1,3 +1,8 @@
+:root {
+  --dark-bg-color: #272935;
+  --dark-icon-color: #596c7c;
+}
+
 html {
   margin: 0;
   padding: 0;
@@ -8,7 +13,7 @@ body {
   font: 75% georgia, sans-serif;
   line-height: 2;
   color: #ffffff;
-  background: #272935;
+  background: var(--dark-bg-color);
   margin: 0;
   padding: 0;
 }
@@ -33,7 +38,7 @@ a {
   color: white;
 }
 .page-wrapper {
-  background-color:#272935;
+  background-color:var(--dark-bg-color);
   width: 100%;
 }
 

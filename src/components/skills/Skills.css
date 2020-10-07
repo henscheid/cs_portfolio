@@ -19,7 +19,7 @@
 
 .skill-graphic {
   width: 100px;
-  fill: gray;
+  fill: var(--dark-icon-color);
   
 }
 .skills-skill {
