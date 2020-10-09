@@ -12,16 +12,61 @@
 .experience-content{
   display: flex;
   flex-flow: column nowrap;
-  width: 75%;
+  width: 80%;
   justify-content: space-around;
   margin: auto;
   
 }
 
 .ind-experience-container {
-  text-align: left;
+  display: flex;
+  flex-flow: row nowrap;
+  width: 100%;
+  justify-content: space-around;
+  margin: 2em auto 2em;
+
 }
 
+.exp-logo-container {
+  width: 280px;
+  height: 200px;
+  background-color: white;
+  border-radius: 8px;
+}
+.exp-logo {
+  width: 200px;
+  height: auto;
+  margin: 75px auto;
+}
+.exp-info {
+  padding: 0 2em;
+  min-width: 500px;
+  max-width: 500px;
+}
+.exp-company {
+  font-weight: bold;
+  font-size: 2em; 
+  margin: 0;
+  line-height: 2;
+}
+
+.exp-role {
+  font-size: 1.8em;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.exp-location {
+  font-size: 1.8em;
+  margin: 0;
+  line-height: 1.7;
+}
+
+p.exp {
+  font-size: 1.6em;
+  line-height: 1.7;
+
+}
 .list-temp {
   font-size: 2em;
 }

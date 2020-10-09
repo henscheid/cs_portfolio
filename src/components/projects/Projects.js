@@ -24,7 +24,7 @@ class Projects extends Component {
             </Collapsible>
           </div>
           <div className="ind-project-container">
-            <Collapsible trigger={<h2>Inventory Management (Junior Design Project)</h2>}>
+            <Collapsible trigger={<h2>Automated Inventory Management (Design Project)</h2>}>
               <ul className="list-temp">
                 <li>design thinking and problem oriented thinking</li>
                 <li>working with a team and playing to strengths</li>

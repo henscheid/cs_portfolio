@@ -8,7 +8,7 @@ class Bio extends Component {
         
         <h1>Biography</h1>
         <p className="bio" id ="bio-intro">
-          I am eager college graduate looking to secure
+          I am an eager college graduate looking to secure
           a full time software development position! I am most
           interested in front-end development, but I am open
           to any role where I can problem solve and put my skills to use.
