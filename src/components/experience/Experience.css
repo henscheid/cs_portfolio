@@ -45,24 +45,30 @@
 }
 .exp-company {
   font-weight: bold;
+  
   font-size: 2em; 
   margin: 0;
   line-height: 2;
 }
 
 .exp-role {
-  font-size: 1.8em;
+  text-align: left;
+  color: skyblue;
+  font-size: 1.7em;
   margin: 0;
   line-height: 1.7;
 }
 
 .exp-location {
-  font-size: 1.8em;
+  text-align: left;
+  color: skyblue;
+  font-size: 1.7em;
   margin: 0;
   line-height: 1.7;
 }
 
 p.exp {
+  text-align: left;
   font-size: 1.6em;
   line-height: 1.7;
 
