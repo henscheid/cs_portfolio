@@ -7,6 +7,7 @@
   text-align: center;
   padding: 3em 0;
   border-bottom: 3px solid;
+  min-width: 700px;
 }
 
 .projects-content{
@@ -20,12 +21,14 @@
   border-radius: 5px;
   padding: 0 2em;
   
+  
 }
 
 .ind-project-container {
   text-align: left;
   border-bottom: 2px solid white;
   padding: 2em 0;
+
 }
 
 p.projects {
@@ -44,6 +47,7 @@ p.projects {
   display: flex;
   justify-content: space-between;
   padding-right: 4em;
+  
   
 }
 .drop-down-arrow {
