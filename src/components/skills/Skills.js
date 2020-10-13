@@ -14,7 +14,7 @@ class Skills extends Component {
               
               <h2>Languages</h2>
               <p className="skills">
-                Java, Python, JavaScript, HTML, CSS
+                Java, Python, JavaScript, HTML, CSS, JSON
               </p>
             </div>
             <div id="frameworks-skill" className="individual-skill">
@@ -22,7 +22,7 @@ class Skills extends Component {
               
               <h2>Frameworks</h2>
               <p className="skills">
-                ReactJS, React Native, Bootstrap, django
+                ReactJS, React Native, Bootstrap, MaterialUI, jQuery, Agile and Waterfall Development
               </p>
             </div>
 
@@ -31,7 +31,7 @@ class Skills extends Component {
               
               <h2>Tools</h2>
               <p className="skills">
-                Git, Linux, MATLAB, JupyterNotebook, Microsoft
+                Git, Linux, VS Code, ExpoCLI, MATLAB, Terminal, Microsoft
                 Office Suite
               </p>
             </div>
@@ -43,8 +43,8 @@ class Skills extends Component {
               
               <h2> Soft Skills </h2>
               <p className="skills">
-                Strong communicator, Confident, Problem Solver,
-                Performs well under pressure
+                Strong Communication, Confidence, Problem Solving,
+                Performing Under Pressure
               </p>
             </div>
 
@@ -53,7 +53,7 @@ class Skills extends Component {
               
               <h2>Leadership</h2>
               <p className="skills">
-                Team and task oriented, empathetic, organized
+                Team and Task Oriented, Ambitious, Organized
               </p>
             </div>
 
@@ -62,7 +62,7 @@ class Skills extends Component {
 
               <h2>Optimization</h2>
               <p className="skills">
-                Design thinking, Kaizen events, Root cause analysis, Modeling
+                Design Thinking, Kaizen Events, Root Cause Analysis, Modeling
               </p>
             </div>
 
