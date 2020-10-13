@@ -19,7 +19,8 @@ class Profile extends Component {
         <h1>Ian Henscheid</h1>  
         <div>
           <h3 className="profile">
-            B.S. Computer Science, Industrial and Systems Engineering<br/> 
+            B.S. Computer Science, <br/>
+            Industrial and Systems Engineering<br/> 
             <i>Earned December '19</i>
           </h3>
           <img 

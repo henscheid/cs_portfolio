@@ -36,8 +36,20 @@ p.projects {
 }
 
 .project-logo {
-  max-width: 200px;
+  max-height: 6em;
   height: auto;
+}
+
+.drop-down-container {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 4em;
+  
+}
+.drop-down-arrow {
+  width: 35px;
+  height: 35px;
+  margin-top: 1.2em;
 }
 
 .list-temp {

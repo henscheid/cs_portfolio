@@ -2,6 +2,8 @@ import React, {Component} from 'react';
 import Collapsible from 'react-collapsible';
 import levelUpLogo from '../../assets/images/leveluplogo.png';
 import viessmanLogo from '../../assets/images/viessmann.png';
+import aisLogo  from '../../assets/images/designProject.png';
+import dropDown from '../../assets/icons/drop-down-arrow.png';
 
 import './Projects.css';
 
@@ -15,7 +17,11 @@ class Projects extends Component {
         <div className="projects-content">
 
           <div className="ind-project-container">
-            <Collapsible trigger={<img src={levelUpLogo} alt="Level Up" className="project-logo"/>}>
+            <Collapsible trigger={
+              <div className="drop-down-container">
+                <img src={levelUpLogo} alt="Level Up" className="project-logo"/>
+                <img src={dropDown} alt="drop down" className="drop-down-arrow"/>
+              </div>}>
               <p className="projects">
                 LevelUp is the first major application I helped create that went through the entire
                 software development lifecycle, starting from a rough idea and ending with a final 
@@ -42,7 +48,12 @@ class Projects extends Component {
             </Collapsible>
           </div>
           <div className="ind-project-container">
-            <Collapsible trigger={<h2>Automated Inventory Management (Design Project)</h2>}>
+            <Collapsible trigger={
+              <div className="drop-down-container">
+                <img src={aisLogo} alt="Automated Inventory System" className="project-logo"/>
+                <img src={dropDown} alt="drop-down" className="drop-down-arrow"/>
+              </div>}>
+              
               <p className="projects">
                 As a design project, my team and I were assigned to create an automated 
                 inventory management system that would accurately and efficiently transport
@@ -69,7 +80,11 @@ class Projects extends Component {
             </Collapsible>
           </div>
           <div className="ind-project-container" style={{border:"none"}}>
-            <Collapsible trigger={<img src={viessmanLogo} alt="Level Up" className="project-logo"/>}>
+            <Collapsible trigger={
+              <div className="drop-down-container">
+                <img src={viessmanLogo} alt="Viessman" className="project-logo"/>
+                <img src={dropDown} alt="drop-down" className="drop-down-arrow"/>
+              </div>}>
               <p className="projects">
                 In the Summer of 2018 I had the opportunity to visit Germany with a group
                 of classmates on a trip sponsored by the German manufacturing company Viessmann.
