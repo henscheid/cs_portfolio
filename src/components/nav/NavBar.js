@@ -11,7 +11,7 @@ class NavBar extends Component {
       <div className="navbar-padding">
       <div className='navbar'>
         <div className='navbar-brand'>
-          <a className='navbar-brand' href="/">
+          <a className='navbar-brand' href="#bio_section">
             Ian Henscheid
           </a>
         </div> 
