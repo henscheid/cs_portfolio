@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/cs_portfolio/static/css/main.3160409d.chunk.css",
+    "main.js": "/cs_portfolio/static/js/main.0b293335.chunk.js",
+    "main.js.map": "/cs_portfolio/static/js/main.0b293335.chunk.js.map",
+    "runtime-main.js": "/cs_portfolio/static/js/runtime-main.826919d7.js",
+    "runtime-main.js.map": "/cs_portfolio/static/js/runtime-main.826919d7.js.map",
+    "static/js/2.21a88b8f.chunk.js": "/cs_portfolio/static/js/2.21a88b8f.chunk.js",
+    "static/js/2.21a88b8f.chunk.js.map": "/cs_portfolio/static/js/2.21a88b8f.chunk.js.map",
+    "index.html": "/cs_portfolio/index.html",
+    "precache-manifest.ef45d796ee4b0d82080259dab58f0811.js": "/cs_portfolio/precache-manifest.ef45d796ee4b0d82080259dab58f0811.js",
+    "service-worker.js": "/cs_portfolio/service-worker.js",
+    "static/css/main.3160409d.chunk.css.map": "/cs_portfolio/static/css/main.3160409d.chunk.css.map",
+    "static/js/2.21a88b8f.chunk.js.LICENSE.txt": "/cs_portfolio/static/js/2.21a88b8f.chunk.js.LICENSE.txt",
+    "static/media/IanHenscheid.pdf": "/cs_portfolio/static/media/IanHenscheid.b6a02412.pdf",
+    "static/media/avatar.png": "/cs_portfolio/static/media/avatar.7a0b1e53.png",
+    "static/media/bascom-hall.jpg": "/cs_portfolio/static/media/bascom-hall.717598b8.jpg",
+    "static/media/designProject.png": "/cs_portfolio/static/media/designProject.257f3708.png",
+    "static/media/pollock-logo.png": "/cs_portfolio/static/media/pollock-logo.4ff332ca.png",
+    "static/media/ssec-logo.png": "/cs_portfolio/static/media/ssec-logo.b4fab632.png",
+    "static/media/uwLogo.png": "/cs_portfolio/static/media/uwLogo.4af49b31.png",
+    "static/media/viessmann.png": "/cs_portfolio/static/media/viessmann.2dbe9943.png",
+    "static/media/walgreens.png": "/cs_portfolio/static/media/walgreens.4dd77f13.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.826919d7.js",
+    "static/js/2.21a88b8f.chunk.js",
+    "static/css/main.3160409d.chunk.css",
+    "static/js/main.0b293335.chunk.js"
+  ]
+}
