@@ -22,7 +22,7 @@ class Skills extends Component {
                 
                 <h2>Frameworks</h2>
                 <p className="skills">
-                  ReactJS, React Native, Bootstrap, MaterialUI, jQuery, Agile and Waterfall Development
+                  ReactJS, React Native, Bootstrap, MaterialUI, jQuery
                 </p>
               </div>
 
@@ -62,7 +62,7 @@ class Skills extends Component {
 
                 <h2>Optimization</h2>
                 <p className="skills">
-                  Design Thinking, Kaizen Events, Root Cause Analysis, Modeling
+                  Agile and Waterfall Development, Design Thinking, Root Cause Analysis, Modeling
                 </p>
               </div>
 
