@@ -16,8 +16,8 @@ class Bio extends Component {
         <br/>
         <p className="bio" id="bio-education">
         I graduated from the University of Wisconsin-Madison in December of 
-        '19 with a double major in Computer Science and Industrial Engineering, 
-        as well as a Business Certificate. I decided to add the Computer Science 
+        '19 with a double major in both Computer Science and Industrial Engineering, 
+        and earned a Business Certificate. I decided to add the Computer Science 
         major after I realized how much I enjoy solving problems through coding.
         </p>
         <br/>

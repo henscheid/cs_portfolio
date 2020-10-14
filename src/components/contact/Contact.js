@@ -5,12 +5,12 @@ import './Contact.css';
 class Contact extends Component {
   render(){
     return(
-      <a class= "anchor" id="contact_section">
+      <div id="contact_section">
         <div id="contact-container" className="contact-container">
           <h1>Contact</h1>
           <EmailForm/>
         </div>
-      </a>
+      </div>
     )
     
   }

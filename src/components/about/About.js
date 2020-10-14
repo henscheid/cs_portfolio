@@ -9,10 +9,10 @@ class About extends Component {
   render(){
     return(
       <a className="anchor" id="bio_section">
-      <div className="about-container">
-        <Profile/>
-        <Bio/>
-      </div>
+        <div className="about-container">
+          <Profile/>
+          <Bio/>
+        </div>
       </a>
     )
   }

@@ -1,5 +1,5 @@
 import React, {Component} from 'react';
-import Resume from '../../assets/resume.pdf';
+import Resume from '../../assets/IanHenscheid.pdf';
 import '../nav/NavBar.css';
 
 

@@ -16,7 +16,7 @@
   width: 75%;
   justify-content: space-around;
   margin: auto;
-  background-color: var(--dark-icon-color);
+  background-color: #283a61;
   border: 2px solid white;
   border-radius: 5px;
   padding: 0 2em;
@@ -33,7 +33,7 @@
 
 p.projects {
   padding-top: 1em;
-  font-size:1.5em;
+  font-size:1.7em;
   line-height:1.7;
   
 }
