@@ -7,7 +7,7 @@
   text-align: center;
   padding: 3em 0;
   border-bottom: 3px solid;
-  min-width: 700px;
+  min-width: 775px;
 }
 
 .projects-content{
@@ -47,6 +47,7 @@ p.projects {
   display: flex;
   justify-content: space-between;
   padding-right: 4em;
+  min-width: 575px;
   
   
 }

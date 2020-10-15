@@ -51,7 +51,7 @@ class Projects extends Component {
             <div className="ind-project-container">
               <Collapsible trigger={
                 <div className="drop-down-container">
-                  <img src={aisLogo} alt="Automated Inventory System" className="project-logo"/>
+                  <img src={aisLogo} alt="Automated Inventory System" className="project-logo" style={{maxHeight:"5.5em"}}/>
                   <img src={dropDown} alt="drop-down" className="drop-down-arrow"/>
                 </div>}>
                 
