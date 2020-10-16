@@ -1,4 +1,4 @@
-# Ian's personal website
+## Ian's personal website!
 This project is a personal portfolio website I created from scratch using the ReactJS framework.
 
 The website contains a little background info about me, my computer science skills, projects I
