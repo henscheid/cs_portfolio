@@ -2,6 +2,7 @@
   padding: 0 2rem;
   width: 500px;
   text-align: center;
+  margin: auto;
 
 }
 
@@ -24,3 +25,15 @@ h3.profile {
   padding: 1em 1em 0;
 }
 
+@media screen and (max-width: 600px) {
+  .profile-wrapper {
+    width: 100%;
+    padding: 0;
+  }
+  .img {
+    width: 75%;
+  }
+  .profile-icon {
+
+  }
+}

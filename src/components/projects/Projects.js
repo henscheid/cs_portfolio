@@ -3,6 +3,7 @@ import Collapsible from 'react-collapsible';
 import levelUpLogo from '../../assets/images/leveluplogo.png';
 import viessmanLogo from '../../assets/images/viessmann.png';
 import aisLogo  from '../../assets/images/designProject.png';
+import smallAIS from '../../assets/images/designProjectSmall.png';
 import dropDown from '../../assets/icons/drop-down-arrow.png';
 
 import './Projects.css';

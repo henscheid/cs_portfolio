@@ -1,7 +1,7 @@
 .bio-container {
   width: 600px;
-  
-  min-width: 600px;
+  min-width: 500px;
+  margin: auto;
   
 }
 
@@ -12,4 +12,12 @@ p.bio {
   margin: 0;
   line-height: 1.7;
   text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+  .bio-container {
+    min-width: 90%;
+    width: 90%;
+    
+  }
 }

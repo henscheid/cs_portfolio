@@ -60,3 +60,16 @@ p.projects {
 .list-temp {
   font-size: 2em;
 }
+
+@media screen and (max-width: 600px) {
+  .projects-container, .drop-down-container {
+    min-width: 100%;
+  }
+
+  .drop-down-arrow {
+    width: 30px;
+    height: 30px;
+    padding-right: 1em;
+  }
+  
+}
