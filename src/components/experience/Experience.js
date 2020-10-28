@@ -4,6 +4,7 @@ import walgreensLogo from '../../assets/images/walgreens.png';
 import pcwpLogo from '../../assets/images/pollock-logo.png';
 import ssecLogo from '../../assets/images/ssec-logo.png';
 import bascom from '../../assets/images/bascom-hall.jpg';
+import usBank from '../../assets/images/us-bank-logo.png';
 
 class Experience extends Component {
   render(){
@@ -12,6 +13,37 @@ class Experience extends Component {
         <div className="experience-container">
           <h1>Experience</h1>
           <div className="experience-content">
+            <div className="ind-experience-container" id="ssec-exp">
+              <div>
+                <div className="exp-logo-container">
+                  <img 
+                    src={usBank} 
+                    alt="U.S. Bank" 
+                    className="exp-logo" 
+                    style={{margin: "70px auto"}}/>
+                </div>
+              </div>
+              <div className="exp-info">
+                <p className="exp-company">U.S. Bank</p>
+                <p className="exp-role">Loan Processing Specialist, October 2020-</p>
+                <p className="exp-location">Oshkosh, WI</p>
+                <br/>
+                <p className="exp">
+                  I recently started a position at U.S. Bank in the Indirect Services Loan 
+                  Processing Department while I search for other positions where I can utilize my
+                  computer science degree. I process incoming loans by proof reading customer
+                  information, transferring data from paperwork to a database, reaching out
+                  to dealers for missing information, and booking deals. 
+                  <br/><br/>
+                  While I process deals I need to proof read contracts with close attention and often
+                  use problem solving to figure out how to proceed with loans that are missing 
+                  information or filled out incorrectly. So far this position has been a great 
+                  opportunity for me to continue to work on my focus and attention to detail!
+                </p>
+              </div>
+              
+            </div>
+
             <div className="ind-experience-container" id="ssec-exp">
               <div>
                 <div className="exp-logo-container">
@@ -48,6 +80,7 @@ class Experience extends Component {
               </div>
               
             </div>
+
             <div className="ind-experience-container" id="uw-exp">
               <div>
                 <div className="exp-logo-container" style={{backgroundColor:"transparent"}}>
