@@ -6,5 +6,12 @@
   text-align:center;
   width: 90%;
   margin: auto;
-  border-bottom: 3px solid;
+  min-width: 700px;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .contact-container{
+    min-width: 90%;
+  }
 }

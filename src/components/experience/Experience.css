@@ -26,6 +26,7 @@
   justify-content: space-around;
   margin: 2em auto 2em;
 
+
 }
 
 .exp-logo-container {
@@ -46,7 +47,7 @@
 }
 .exp-company {
   font-weight: bold;
-  
+  text-align: left;
   font-size: 2em; 
   margin: 0;
   line-height: 2;
@@ -55,7 +56,7 @@
 .exp-role {
   text-align: left;
   color: skyblue;
-  font-size: 1.7em;
+  font-size: 1.8em;
   margin: 0;
   line-height: 1.7;
 }
@@ -63,17 +64,46 @@
 .exp-location {
   text-align: left;
   color: skyblue;
-  font-size: 1.7em;
+  font-size: 1.8em;
   margin: 0;
   line-height: 1.7;
 }
 
 p.exp {
   text-align: left;
-  font-size: 1.6em;
+  font-size: 1.7em;
   line-height: 1.7;
 
 }
 .list-temp {
   font-size: 2em;
+}
+
+@media screen and (max-width: 600px) {
+  .experience-container {
+    min-width: 90%;
+  }
+  .experience-content {
+    width: 100%;
+  }
+  .ind-experience-container {
+    flex-flow: column;
+  }
+  .exp-logo-container {
+    margin: auto; 
+  }
+  .exp-info {
+    
+    min-width: 100%;
+    max-width: 100%;
+    text-align: justify;
+    padding: 0;
+  }
+  .exp-company {
+    padding-top: 1em;
+    line-height: 1.5;
+  }
+  .exp-role {
+    padding-top: .5em;
+  }
 }

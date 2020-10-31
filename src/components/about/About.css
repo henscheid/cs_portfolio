@@ -6,14 +6,16 @@
   padding: 4em;
   margin: 0 auto 5em;
   border-bottom: 3px solid;
+  min-width: 700px;
   
 }
 
 @media screen and (max-width: 600px) {
   .about-container {
     flex-flow: column;
-    width: 100%;
+    width: 95%;
     padding: 2em 0;
+    min-width: 95%;
     
   }
 }

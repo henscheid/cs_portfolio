@@ -7,14 +7,14 @@
   text-align: center;
   padding: 3em 0;
   border-bottom: 3px solid;
-  min-width: 800px;
+  min-width: 700px;
   max-width: 1000px;
 }
 
 .projects-content{
   display: flex;
   flex-flow: column nowrap;
-  width: 75%;
+  width: 80%;
   justify-content: space-around;
   margin: auto;
   background-color: #283a61;
@@ -34,7 +34,7 @@
 
 p.projects {
   padding-top: 1em;
-  font-size:1.9em;
+  font-size:1.7em;
   line-height:1.7;
   
 }
@@ -48,7 +48,7 @@ p.projects {
   display: flex;
   justify-content: space-between;
   padding-right: 4em;
-  min-width: 575px;
+  min-width: 95%;
   
   
 }
@@ -63,14 +63,27 @@ p.projects {
 }
 
 @media screen and (max-width: 600px) {
-  .projects-container, .drop-down-container {
-    min-width: 100%;
+  
+  .projects-container {
+    min-width: 95%;
+  }
+
+  .drop-down-container {
+    min-width: 95%;
   }
 
   .drop-down-arrow {
     width: 30px;
     height: 30px;
-    padding-right: 1em;
+    
+  }
+  .projects-content {
+    width: 80%;
+  }
+
+  p.projects {
+    font-size: 1.7em;
+    text-align: left;
   }
   
 }

@@ -59,3 +59,12 @@
 .navbar-padding{
   padding-bottom: 100px;
 }
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    display: none;
+  }
+  .navbar-padding {
+    padding-bottom: 4em;
+  }
+}

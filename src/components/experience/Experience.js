@@ -13,7 +13,7 @@ class Experience extends Component {
         <div className="experience-container">
           <h1>Experience</h1>
           <div className="experience-content">
-            <div className="ind-experience-container" id="ssec-exp">
+            <div className="ind-experience-container" id="usbank-exp">
               <div>
                 <div className="exp-logo-container">
                   <img 
