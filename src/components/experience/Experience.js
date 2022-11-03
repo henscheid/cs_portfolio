@@ -13,6 +13,56 @@ class Experience extends Component {
         <div className="experience-container">
           <h1>Experience</h1>
           <div className="experience-content">
+            
+            <div className="ind-experience-container" id="raytheon-exp">
+              <div>
+                <div className="exp-logo-container">
+                  <img 
+                    src={usBank} 
+                    alt="U.S. Bank" 
+                    className="exp-logo" 
+                    style={{margin: "70px auto"}}/>
+                </div>
+              </div>
+              <div className="exp-info">
+                <p className="exp-company">Raytheon Intelligence & Space</p>
+                <p className="exp-role">Software Engineer II, March 2022-</p>
+                <p className="exp-role">Software Engineer I, January 2021-March 2022</p>
+                <p className="exp-location">Aurora, CO</p>
+                <br/>
+                <p className="exp">
+                  Over the past two years I have been a software engineer for Raytehon Intelligence &
+                  Space for the GPS OCX project on the Software Configuration Management team. Our team
+                  supports various DevOps functions, quality control, and data management on the program.
+                  My Responsibilities include creating and running software build pipelines with Jenkins,
+                  installing mission software across integrated systems using Rundeck automation, administering
+                  DevOps tools such as Jira, Artifactory, BitBucket, and ClearQuest, hosting release closure
+                  meetings to ensure quality and functionality with each sprint, and creating and reviewing
+                  technical documentation.
+                  <br/><br/>
+                  During my time with Raytheon I have grown tremendously as a software engineer. On my team 
+                  I play a role in each step of the DevOps lifecycle and it has given me a unique perspective 
+                  where I can see how development, build pipelines, testing, release management, and deployment 
+                  all work together. I work with developers to ensure their changes are pulled into builds when 
+                  I run build pipelines, review those builds to ensure quality at the end of each sprint, and 
+                  then deploy the software and note any errors or regression we see so developers can continue 
+                  to improve the product. From this bird's eye view it is easy to see the importance of quality 
+                  and communication at every step in the process, and it has made me a better communicator and 
+                  engineer. I've also learned the power of automation and have used this knowledge to automate 
+                  tedious daily tasks, create and improve build pipelines to improve efficiency and reduce human 
+                  error. This role has given me a new appreciation for DevOps and makes me excited to find and 
+                  improve inefficiencies in the DevOps lifecycle.
+                  <br/><br/>
+                  Due to my high performance, attention to detail, strong communication, and willingness to take 
+                  on new challenges and learn quickly I was promoted after 15 months in my role to the Software 
+                  Engineer II position. With my promotion I took on the role of a senior engineer who was 
+                  changing programs, and have been given more independence and responsibilities to match my 
+                  performance. I've enjoyed all that I've learned working at Raytheon and I'm excited to 
+                  continue growing as a software engineer and particularly in DevOps.
+                </p>
+              </div>
+              
+            </div>
             <div className="ind-experience-container" id="usbank-exp">
               <div>
                 <div className="exp-logo-container">
