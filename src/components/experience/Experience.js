@@ -5,6 +5,7 @@ import pcwpLogo from '../../assets/images/pollock-logo.png';
 import ssecLogo from '../../assets/images/ssec-logo.png';
 import bascom from '../../assets/images/bascom-hall.jpg';
 import usBank from '../../assets/images/us-bank-logo.png';
+import raytheon from '../../assets/images/raytheon.png';
 
 class Experience extends Component {
   render(){
@@ -18,8 +19,8 @@ class Experience extends Component {
               <div>
                 <div className="exp-logo-container">
                   <img 
-                    src={usBank} 
-                    alt="U.S. Bank" 
+                    src={raytheon} 
+                    alt="Raytheon Intelligence & Space" 
                     className="exp-logo" 
                     style={{margin: "70px auto"}}/>
                 </div>
