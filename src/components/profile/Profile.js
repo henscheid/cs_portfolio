@@ -19,6 +19,8 @@ class Profile extends Component {
         <h1>Ian Henscheid</h1>  
         <div>
           <h3 className="profile">
+            Software Engineer II <br/>
+            Raytheon Intellgience & Space <br/><br/>
             B.S. Computer Science, <br/>
             Industrial and Systems Engineering<br/> 
             <i>Earned December '19</i>
